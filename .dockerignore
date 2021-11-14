@@ -1,0 +1,8 @@
+.bin
+.git
+README.md
+LICENSE
+*.code-workspace
+Makefile
+.github
+.tmpfiles

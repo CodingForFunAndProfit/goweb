@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    webserver:
+        build: .
+        ports:
+            - 8080:8080
+
+    proxy:
+        build: proxy
+        ports:
+            - 80:80
+        depends_on:
+            - webserver
